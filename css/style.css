@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 html,body{
     width: 100%;
     height: 100%;
@@ -14,4 +18,24 @@ html,body{
     background-image: url("../images/quaid-azeem.png");
     background-repeat: no-repeat;
     background-size: contain;
+    background-attachment: scroll;
+}
+
+#some-text{
+    padding-top: 25%;
+}
+
+#links{
+    position: relative;
+    float: right;
+}
+
+#links ul{
+    position: absolute;
+    right: 0;
+    bottom: -20;
+}
+
+#links ul li{
+    list-style: none;
 }

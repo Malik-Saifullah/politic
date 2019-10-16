@@ -1,8 +1,9 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-html,body{
+html,
+body {
     width: 100%;
     height: 100%;
 }
@@ -11,17 +12,17 @@ html,body{
                 home
 ======================================*/
 
-#home{
+#home {
     width: 100%;
     height: 100%;
 }
 
-#home .container{
+#home .container {
     width: 100%;
     height: 100%;
 }
 
-#home #cover-img{
+#home #cover-img {
     width: 100%;
     height: 100%;
     background-image: url("../images/quaid-azeem.png");
@@ -30,37 +31,37 @@ html,body{
     background-attachment: scroll;
 }
 
-#some-text{
+#some-text {
     padding-top: 25%;
 }
 
-#some-text h5{
+#some-text h5 {
     font-size: 14px;
     font-weight: bolder;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
-#some-text h3{
+#some-text h3 {
     font-size: 50px;
     font-weight: bolder;
     line-height: 1.5;
     margin-bottom: 40px;
 }
 
-#some-text a{
+#some-text a {
     text-transform: uppercase;
     text-decoration: none;
     padding: 12px 25px;
     border: 2px solid #000;
 }
 
-#links{
+#links {
     position: relative;
     float: right;
 }
 
-#links ul{
+#links ul {
     padding: 0;
     margin: 0;
     position: absolute;
@@ -68,11 +69,11 @@ html,body{
     bottom: 30px;
 }
 
-#links ul li{
+#links ul li {
     list-style: none;
 }
 
-#links ul li a i{
+#links ul li a i {
     font-size: 17px;
     padding: 6px 0;
     color: #000;
@@ -83,24 +84,24 @@ html,body{
                 promises
 ======================================*/
 
-#promises{
+#promises {
     width: 100%;
     height: 50%;
 }
 
-#promises .container-fluid{
+#promises .container-fluid {
     height: 100%;
 }
 
-#promises .container-fluid .row{
+#promises .container-fluid .row {
     height: 100%;
 }
 
-#promises .container-fluid .row .col-md-6{
+#promises .container-fluid .row .col-md-6 {
     height: 100%;
 }
 
-#promises #bg-half-img{
+#promises #bg-half-img {
     width: 100%;
     height: 100%;
     background-image: url("../images/quaid-azeem.png");
@@ -108,7 +109,7 @@ html,body{
     background-size: cover;
 }
 
-#promises #bg-half-img h3{
+#promises #bg-half-img h3 {
     margin-top: 10%;
     text-transform: capitalize;
     font-size: 23px;
@@ -116,22 +117,22 @@ html,body{
     margin-bottom: 20px;
 }
 
-#promises #bg-half-img p{
+#promises #bg-half-img p {
     font-weight: 600;
     letter-spacing: 1px;
     word-spacing: 1px;
 }
 
-#promises #bg-half-img a i{
+#promises #bg-half-img a i {
     color: #000;
     font-size: 70px;
 }
 
-#promises #bg-other-half{
+#promises #bg-other-half {
     background-color: gray;
 }
 
-#promises #bg-other-half h3{
+#promises #bg-other-half h3 {
     color: #fff;
     margin-top: 10%;
     text-transform: capitalize;
@@ -140,14 +141,14 @@ html,body{
     margin-bottom: 20px;
 }
 
-#promises #bg-other-half p{
+#promises #bg-other-half p {
     color: #fff;
     font-weight: 600;
     letter-spacing: 1px;
     word-spacing: 1px;
 }
 
-#promises #bg-other-half input{
+#promises #bg-other-half input {
     padding: 8px 15px;
     background-color: transparent;
     border: 1px solid #fff;
@@ -159,12 +160,12 @@ html,body{
                 involved
 ======================================*/
 
-#involved{
+#involved {
     width: 100%;
     height: 63%;
 }
 
-#involved #cover-img{
+#involved #cover-img {
     width: 100%;
     height: 100%;
     background-image: url("../images/quaid-azeem.png");
@@ -172,18 +173,18 @@ html,body{
     background-size: contain;
 }
 
-#involved h3{
+#involved h3 {
     margin-top: 10%;
     font-weight: bolder;
     margin-bottom: 2%;
 }
 
-#involved p{
+#involved p {
     font-weight: 500;
     margin-bottom: 5%;
 }
 
-#involved a{
+#involved a {
     letter-spacing: 1px;
     color: #000;
     font-size: 15px;
@@ -199,12 +200,12 @@ html,body{
                 shop
 ======================================*/
 
-#shop{
+#shop {
     width: 100%;
     height: 90%;
 }
 
-#shop #shop-cover-img{
+#shop #shop-cover-img {
     width: 100%;
     height: 100%;
     background-image: url("../images/quaid-azeem.png");
@@ -212,7 +213,7 @@ html,body{
     background-size: cover;
 }
 
-#shop h3{
+#shop h3 {
     letter-spacing: 1px;
     word-spacing: 1px;
     margin-top: 30%;
@@ -221,20 +222,20 @@ html,body{
     margin-bottom: 4%;
 }
 
-#line-break{
+#line-break {
     width: 70px;
     height: 3px;
     background-color: #000;
     margin-bottom: 5%;
 }
 
-#shop p{
+#shop p {
     font-size: 15px;
     font-weight: 500;
     margin-bottom: 10%;
 }
 
-#shop a{
+#shop a {
     color: #000;
     letter-spacing: 1px;
     word-spacing: 1px;
@@ -250,12 +251,28 @@ html,body{
                 follow
 ======================================*/
 
-#follow{
+#follow {
     width: 100%;
     height: 60%;
 }
 
-#follow h3{
+#follow #twitter-link {
+    position: relative;
+}
+
+#follow #twitter-link a {
+    color: #000;
+    font-size: 13px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    position: absolute;
+    margin-top: 7%;
+    right: 5%;
+}
+
+#follow h3 {
     color: #000;
     margin-top: 7%;
     font-size: 35px;
@@ -265,7 +282,7 @@ html,body{
     margin-bottom: 4%;
 }
 
-#follow p{
+#follow p {
     color: #000;
     font-size: 20px;
     font-weight: bolder;
@@ -274,7 +291,7 @@ html,body{
     margin-bottom: 2%;
 }
 
-#follow h5{
+#follow h5 {
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -282,11 +299,11 @@ html,body{
     margin-bottom: 2%;
 }
 
-#follow span{
+#follow span {
     color: #DA1333;
 }
 
-#follow a#link{
+#follow a#link {
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;
@@ -300,23 +317,72 @@ html,body{
                 footer
 ======================================*/
 
-footer{
+footer {
     width: 100%;
     height: 43%;
     color: #fff;
     background-color: #213875;
     padding-top: 4%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
-footer h3{
-    font-size: 15px;
+
+footer h3 {
+    font-size: 18px;
     font-weight: bolder;
     margin-bottom: 3%;
+    text-transform: capitalize;
 }
 
-footer .container,
-footer .container .row,
-footer .container .row .col-md-4{
+footer .container-fluid,
+footer .container-fluid .row,
+footer .container-fluid .row .col-md-4 {
     width: 100%;
     height: 100%;
+}
+
+footer input {
+    margin-top: 5%;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+
+footer #middle-part h3 {
+    font-size: 16px;
+    margin-bottom: 1%;
+}
+
+footer p {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.8;
+}
+
+footer #footer-links {
+    list-style: none;
+    margin-top: 9% !important;
+}
+
+footer ul {
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    padding-right: 4px;
+}
+
+footer ul li a i {
+    font-size: 17px;
+    color: #fff;
+    padding: 8px;
+    border: 1px solid #fff;
+    border-radius: 60%;
+    -webkit-border-radius: 60%;
+    -moz-border-radius: 60%;
+    -ms-border-radius: 60%;
+    -o-border-radius: 60%;
 }

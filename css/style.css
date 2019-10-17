@@ -8,11 +8,6 @@ body {
     height: 100%;
 }
 
-.vesco-top-nav {
-    background: rgba(0, 0, 0, 0.7);
-    padding: 7px 0;
-}
-
 
 /*======================================
                 home
@@ -400,4 +395,3 @@ footer #terms-condition a{
     color: #fff;
     padding-left: 4%;
 }
-

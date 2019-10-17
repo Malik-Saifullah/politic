@@ -9,10 +9,11 @@ body {
 }
 
 
-#home,
 .container-fluid,
 #home-detail,
-#more {
+#more,
+#vice-president,
+#one-more-pic {
     width: 100%;
     height: 100%;
 }
@@ -20,6 +21,11 @@ body {
 /*======================================
                 home
 ======================================*/
+
+#home{
+    width: 100%;
+    height: 80%;
+}
 
 .bg-common {
     width: 100%;
@@ -34,10 +40,27 @@ body {
 }
 
 /*======================================
-                home-detail
+                more
 ======================================*/
 
-
 #more .container-fluid #more-img {
+    background-image: url("../images/quaid-azeem.png");
+}
+
+
+/*======================================
+                vice president
+======================================*/
+
+#vice-president .container-fluid #vice-president-img {
+    background-image: url("../images/quaid-azeem.png");
+}
+
+
+/*======================================
+            one more pic
+======================================*/
+
+#one-more-pic .container-fluid #one-more-pic {
     background-image: url("../images/quaid-azeem.png");
 }

@@ -30,7 +30,7 @@ body {
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 #home .container-fluid #about-bg-img {
@@ -38,8 +38,13 @@ body {
     background-attachment: fixed;
 }
 
-#home-detail .container,#event .container{
+#home-detail .container,
+#event .container {
     padding: 0 6%;
+}
+
+#home-detail{
+    position: relative;
 }
 
 #home-detail .container h5 {
@@ -51,10 +56,16 @@ body {
     margin-bottom: 3%;
 }
 
+#home-detail .container #about-line-break{
+    position: absolute;
+    top: 7px;
+    left: 5%;
+}
+
 #home-detail .container #about-line-break {
-    width: 12%;
+    width: 7%;
     height: 1px;
-    background-color: gray;
+    background-color: #000;
     margin-bottom: 5%;
 }
 
@@ -83,32 +94,32 @@ body {
     letter-spacing: 2px;
 }
 
-#bg-img .container .row #card h3{
+#bg-img .container .row #card h3 {
     font-size: 30px;
     font-weight: bolder;
 }
 
-#bg-img .container .row #card #card-line-break{
+#bg-img .container .row #card #card-line-break {
     width: 15%;
     height: 3px;
     background-color: gray;
     margin-bottom: 7%;
 }
 
-#bg-img .container .row #card p{
+#bg-img .container .row #card p {
     font-weight: 500;
     line-height: 1.1;
     margin-bottom: 10%;
 }
 
-#bg-img .container .row #card a{
+#bg-img .container .row #card a {
     color: #000;
     text-decoration: none;
     font-size: 13px;
     font-weight: bold;
 }
 
-#bg-img .container .row #card a#links{
+#bg-img .container .row #card a#links {
     float: right;
     padding: 3% 5%;
     border: 2px solid #000;

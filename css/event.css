@@ -39,11 +39,12 @@ body {
 }
 
 #home-detail .container,
-#event .container {
+#event .container,
+#event-shedule .container {
     padding: 0 6%;
 }
 
-#home-detail{
+#home-detail {
     position: relative;
 }
 
@@ -56,7 +57,7 @@ body {
     margin-bottom: 3%;
 }
 
-#home-detail .container #about-line-break{
+#home-detail .container #about-line-break {
     position: absolute;
     top: 7px;
     left: 5%;
@@ -125,6 +126,18 @@ body {
     border: 2px solid #000;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+
+/*======================================
+                event shedule
+======================================*/
+
+#event-shedule .container h5 {
+    color: gray;
+    margin-top: 5%;
+    font-size: 15px;
+    margin-bottom: 6%;
 }
 
 

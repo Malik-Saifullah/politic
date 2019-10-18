@@ -227,8 +227,8 @@ footer #terms-condition a {
 /* Small Devices (Portrait Tablets & Small Desktops) */
 
 @media (min-width: 768px) and (max-width: 991px) {
-    #promises {
-        height: 60%;
+    #home-detail .container #about-line-break {
+        display: none;
     }
 
     footer {
@@ -252,16 +252,8 @@ footer #terms-condition a {
 
 
 @media (min-width: 481px) and (max-width: 767px) {
-    #promises #bg-half-img h3 {
-        font-size: 5vw;
-    }
-
-    #promises .container-fluid #bg-other-half {
+    #home-detail .container #about-line-break {
         display: none;
-    }
-
-    #follow #twitter-link a {
-        top: 1%;
     }
 
     footer {
@@ -285,24 +277,8 @@ footer #terms-condition a {
 
 
 @media (max-width: 480px) {
-    #home h5 {
-        margin-top: 20%;
-    }
-
-    #home h3 {
-        font-size: 25px;
-    }
-
-    #promises #bg-half-img h3 {
-        font-size: 5vw;
-    }
-
-    #promises .container-fluid #bg-other-half {
+    #home-detail .container #about-line-break {
         display: none;
-    }
-
-    #follow #twitter-link a {
-        top: 1%;
     }
 
     footer {

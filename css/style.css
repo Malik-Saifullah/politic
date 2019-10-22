@@ -19,10 +19,6 @@ body {
     position: relative;
 }
 
-#home .container {
-    width: 100%;
-    height: 100%;
-}
 
 #home #cover-img {
     width: 100%;
@@ -30,10 +26,14 @@ body {
     background-image: url("../images/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    display: table;
 }
 
-#home #some-text {
-    padding-top: 20%;
+#home .container {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
 }
 
 #home #some-text h3 {
@@ -91,18 +91,27 @@ body {
     background-image: url("../images/Montgomery_Hall_\(Quaid-e-Azam_Library\)_by_Usman_Ghani.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 0;
+    display: table;
+}
+
+#promises #bg-half-img .container {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, .7);
+    display: table-cell;
+    vertical-align: middle;
 }
 
 #promises #bg-half-img h3 {
-    margin-top: 10%;
     text-transform: capitalize;
     font-size: 3vw;
     font-weight: bolder;
-    margin-bottom: 3%;
+    padding-bottom: 3%;
 }
 
 #promises #bg-half-img p {
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 1px;
     word-spacing: 1px;
 }
@@ -115,12 +124,17 @@ body {
 #promises #bg-other-half {
     height: 100%;
     width: 100%;
-    background-color: gray;
+    background: rgba(0, 0, 0, .9);
+    display: table;
+}
+
+#promises #bg-other-half .container{
+    display: table-cell;
+    vertical-align: middle;
 }
 
 #promises #bg-other-half h3 {
     color: #fff;
-    margin-top: 10%;
     text-transform: capitalize;
     font-size: 3vw;
     font-weight: bolder;
@@ -148,21 +162,30 @@ body {
 
 #involved {
     width: 100%;
-    height: 63%;
+    height: 60%;
 }
 
 #involved #cover-img {
     width: 100%;
     height: 100%;
-    background-image: url("../images/quaid-azeem.png");
+    background-image: url("../images/Quaid-e-Azam_at_Risalpur.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    display: table;
+}
+
+#involved #cover-img .container {
+    display: table-cell;
+    vertical-align: middle !important;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, .7);
 }
 
 #involved h3 {
-    margin-top: 10%;
     font-weight: bolder;
-    margin-bottom: 2%;
+    padding-bottom: 2%;
 }
 
 #involved p {
@@ -170,7 +193,7 @@ body {
     font-weight: 400;
 }
 
-#involved p.text-right{
+#involved p.text-right {
     font-weight: 300;
     font-style: italic;
 }
@@ -199,15 +222,25 @@ body {
 #shop #shop-cover-img {
     width: 100%;
     height: 100%;
-    background-image: url("../images/quaid-azeem.png");
+    background-image: url("../images/Quaids-residency.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    display: table;
+}
+
+#shop #shop-cover-img .container{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#shop #shop-cover-img .container .row .col-md-6 .container{
+    padding: 5%;
+    background: rgba(255, 255, 255, .6);
 }
 
 #shop h3 {
     letter-spacing: 1px;
     word-spacing: 1px;
-    margin-top: 30%;
     font-size: 40px;
     font-weight: bolder;
     margin-bottom: 4%;
@@ -223,17 +256,15 @@ body {
 #shop p {
     font-size: 15px;
     font-weight: 500;
-    margin-bottom: 10%;
+    margin-bottom: 3%;
 }
 
-#shop a {
+#shop #shop-cover-img .container .row .col-md-6 .container a {
     color: #000;
     letter-spacing: 1px;
     word-spacing: 1px;
     text-decoration: none;
-    text-transform: uppercase;
-    padding: 14px 30px;
-    border: 3px solid #000;
+    text-transform: capitalize;
     font-weight: bolder;
 }
 
@@ -246,58 +277,22 @@ body {
     width: 100%;
     height: 60%;
     position: relative;
+    display: table;
 }
 
-#follow #twitter-link a {
-    color: #000;
-    font-size: 13px;
+#follow .container{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#follow .container .row .col-md-6{
+    margin: 0 auto;
+}
+
+#follow .container .row .col-md-6 h3{
+    font-size: 30px;
     font-weight: bolder;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    word-spacing: 1px;
-    position: absolute;
-    top: 21%;
-    right: 5%;
-}
-
-#follow h3 {
-    color: #000;
-    margin-top: 7%;
-    font-size: 35px;
-    letter-spacing: 1px;
-    word-spacing: 1px;
-    font-weight: bolder;
-    margin-bottom: 4%;
-}
-
-#follow p {
-    color: #000;
-    font-size: 20px;
-    font-weight: bolder;
-    letter-spacing: 1px;
-    word-spacing: 1px;
-    margin-bottom: 2%;
-}
-
-#follow h5 {
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    word-spacing: 1px;
-    margin-bottom: 2%;
-}
-
-#follow span {
-    color: #DA1333;
-}
-
-#follow a#link {
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    word-spacing: 1px;
-    text-transform: uppercase;
+    color: #213875;
 }
 
 

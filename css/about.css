@@ -32,7 +32,7 @@ body {
 
 #home {
     width: 100%;
-    height: 80%;
+    height: 90%;
 }
 
 .bg-common {
@@ -43,7 +43,7 @@ body {
 }
 
 #home .container-fluid #about-bg-img {
-    background-image: url("../images/quaid-azeem.png");
+    background-image: url("../images/DSVBig2XUAE5DWf.jpg");
     background-attachment: fixed;
 }
 
@@ -83,11 +83,6 @@ body {
     font-style: italic;
 }
 
-#home-detail .container p#by {
-    font-style: italic;
-    margin-left: 6%;
-}
-
 #home-detail .container p {
     margin-bottom: 3%;
 }
@@ -98,7 +93,8 @@ body {
 ======================================*/
 
 #more .container-fluid #more-img {
-    background-image: url("../images/quaid-azeem.png");
+    background-image: url("../images/GettyImages-2667868.jpg");
+    background-attachment: fixed;
 }
 
 #more-detail .container {
@@ -115,41 +111,21 @@ body {
 
 
 /*======================================
-                vice president
-======================================*/
-
-#vice-president .container-fluid #vice-president-img {
-    background-image: url("../images/quaid-azeem.png");
-}
-
-#vice-president-detail .container {
-    padding: 0 13%;
-}
-
-#vice-president-detail .container h3 {
-    margin-top: 10%;
-    font-style: 30px;
-    font-weight: bolder;
-    margin-bottom: 3%;
-}
-
-#vice-president-detail .container p {
-    margin-bottom: 3%;
-}
-
-
-/*======================================
             one more pic
 ======================================*/
 
 #one-more-pic .container-fluid #one-more-pic {
-    background-image: url("../images/quaid-azeem.png");
+    background-image: url("../images/0_k-vWDSfO_eIyNUCP.jpg");
+    background-attachment: fixed;
 }
 
-#one-more-pic-detail .container h5 {
-    padding: 0 13%;
-    margin-top: 2%;
-    font-size: 12px;
+#one-more-pic-detail .container-fluid p {
+    margin-top: 1%;
+    font-size: 15px;
+    font-weight: 500;
+    color: gray;
+    padding-bottom: 5%;
+    padding-left: 2%;
 }
 
 

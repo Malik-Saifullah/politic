@@ -28,7 +28,7 @@ body {
 #home,
 #home .container-fluid .bg-common .container {
     width: 100%;
-    height: 80%;
+    height: 100%;
 }
 
 .bg-common {
@@ -39,26 +39,40 @@ body {
 }
 
 #home .container-fluid #about-bg-img {
-    background-image: url("../images/quaid-azeem.png");
+    background-image: url("../images/Muslim_League_leaders_after_a_dinner_party\,_1940_\(Photo_429-6\).jpg");
     background-attachment: fixed;
 }
 
+#home .container-fluid #about-bg-img #bg-rgba {
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, .6);
+}
+
+#home .container-fluid #about-bg-img #bg-rgba .container {
+    display: table;
+}
+
+#home .container-fluid #about-bg-img #bg-rgba .container #make-e-meddle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 #home .container-fluid .bg-common .container h3 {
-    padding-top: 20% !important;
     font-size: 5vw;
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 3%;
 }
 
 #home .container-fluid .bg-common .container p {
     font-size: 22px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 #home .container-fluid .bg-common .container #line-break {
     width: 6%;
     height: 1px;
-    background-color: gray;
+    background-color: black;
     position: absolute;
     left: 2%;
     bottom: 29.7%;
@@ -67,7 +81,7 @@ body {
 #home .container-fluid .bg-common .container #line-break-2 {
     width: 3%;
     height: 1px;
-    background-color: gray;
+    background-color: black;
     position: absolute;
     left: 5%;
     bottom: 29%;
@@ -86,22 +100,16 @@ body {
     padding: 4%;
 }
 
-#promises .container .row .col-md-6 .box .icons {
-    float: left;
-    text-align: center;
-    padding: 10%;
+#promises .container .row .col-md-6 .box .text-area:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#promises .container .row .col-md-6 .box i {
-    font-size: 50px;
-    float: left;
-    padding: 10px;
-    text-align: center;
-}
-
-#promises .container .row .col-md-6 .box h3 {
-    font-size: 35px;
-    font-weight: bolder;
+#promises .container .row .col-md-6 .box .text-area p {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 7%;
+    background-color: gainsboro;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 

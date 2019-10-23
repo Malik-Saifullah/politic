@@ -165,32 +165,12 @@ body {
 
 footer {
     width: 100%;
-    height: 43%;
+    height: 20%;
     color: #fff;
-    background-color: #213875;
+    background-color: #343A40;
     padding-top: 4%;
     padding-left: 3%;
     padding-right: 3%;
-}
-
-
-footer h3 {
-    font-size: 18px;
-    font-weight: bolder;
-    margin-bottom: 3%;
-    text-transform: capitalize;
-}
-
-footer input {
-    margin-top: 5%;
-    padding: 5px 10px;
-    border: 1px solid #fff;
-    background-color: transparent;
-}
-
-footer #middle-part h3 {
-    font-size: 16px;
-    margin-bottom: 1%;
 }
 
 footer p {
@@ -201,7 +181,6 @@ footer p {
 
 footer #footer-links {
     list-style: none;
-    margin-top: 9% !important;
 }
 
 footer ul {
@@ -226,15 +205,6 @@ footer ul li a i {
     -o-border-radius: 60%;
 }
 
-#footer-line-break {
-    margin-top: 50px !important;
-    width: 100%;
-    height: 1px;
-    background-color: #4D6091;
-    margin: 0 auto;
-    margin-bottom: 2%;
-}
-
 footer #terms-condition a {
     font-size: 12px;
     color: #fff;
@@ -250,17 +220,11 @@ footer #terms-condition a {
     }
 
     footer {
-        height: 90%;
-        background-color: #213875;
+        height: 25%;
     }
 
     footer .container-fluid .row .col-md-12 {
         text-align: center !important;
-    }
-
-    footer .container-fluid .row input {
-        margin-top: 0;
-        margin-bottom: 5%;
     }
 
     footer .container-fluid .row #footer-links {
@@ -275,17 +239,11 @@ footer #terms-condition a {
     }
 
     footer {
-        height: 85%;
-        background-color: #213875;
+        height: 25%;
     }
 
     footer .container-fluid .row .col-md-12 {
         text-align: center !important;
-    }
-
-    footer .container-fluid .row input {
-        margin-top: 0;
-        margin-bottom: 5%;
     }
 
     footer .container-fluid .row #footer-links {
@@ -300,17 +258,11 @@ footer #terms-condition a {
     }
 
     footer {
-        height: 75%;
-        background-color: #213875;
+        height: 15%;
     }
 
     footer .container-fluid .row .col-md-12 {
         text-align: center !important;
-    }
-
-    footer .container-fluid .row input {
-        margin-top: 0;
-        margin-bottom: 5%;
     }
 
     footer .container-fluid .row #footer-links {
